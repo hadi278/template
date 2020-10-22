@@ -5,6 +5,7 @@
 - CSS Frameworknya pakai Bootstrap
 - Buat file CSS dengan nama `template01.css` lalu panggil di file `template01.html` yang sudah di buat sebelumnya.
 - Buat folder javascript dan buat didalamnya 1 file javascript dengan nama `template01.js` lalu panggil di file `template01.html` yang sudah di buat sebelumnya.
+- branch git nya kerjain di branch `dev` awas jangan sampai salah.
 
 
 ### Wirerframe Konsep Template
