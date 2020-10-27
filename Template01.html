@@ -1,84 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template01 </title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/template.css">
-    <script type="text/javascript" src="Template.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template01 </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/template.css">
+  <script type="text/javascript" src="Template.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
 </head>
+
 <body>
-    <div class="part-of-body1">
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-success">
-                <a class="navbar-brand text-white" href="#">MY PROFILE </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar navbar-nav ml-auto">
-                        <li class="nav-item active text-white">
-                            <a class="nav-link" href="#"> PORTFOLIO <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active text-white">
-                            <a class="nav-link" href="#">ABOUT</a>   
-                        </li>
-                        <li class="nav-item active text-white">
-                            <a class="nav-link" href="#">CONTACT</a>
-                        </li>
-                    </ul>
-            </nav>
+  <!-- HEADER AREA -->
+  <header class="header-area">
+    <nav class="navbar navbar-expand-lg navbar-blue">
+      <a class="navbar-brand text-white" href="#">
+        MY PROFILE
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#"> PORTFOLIO <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- INTRODUCTION AREA -->
+  <section class="introduction-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>INTRODUCTION AREA</h1>
         </div>
-        <div>
-            <div>
-                <div class="form-image">
-                    <img src="user.png" class="rounded mx-auto modal-sm" alt="image">
-                </div>
-            </div>
-            <div class="form-Name">
-                <div class="mx-auto text-white col-lg-10">
-                    <h1> i'm Hadi Rachmat Supindar </h1>
-                    <img src="ornament.png" class="rounded mx-auto modal-sm text-white" alt="image">
-                    <p> full stack developer software,engineer expert</p>
-                </div>    
-            </div>
-        </div>
+      </div>
     </div>
-    <div>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    1 of 2
-                    <img src="" alt="">
-                </div>
-                <div class="col">
-                    2 of 2
-                    <img src="" alt="">
-                </div>
-                <div class="col">
-                    1 of 3
-                    <img src="" alt="">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                  1 of 2
-                  <img src="" alt="">
-                </div>
-                <div class="col">
-                  2 of 2
-                  <img src="" alt="">
-                </div>
-                <div class="col">
-                  1 of 3
-                  <img src="" alt="">
-                </div>
-            </div>
+  </section>
+
+  <!-- PORTOFOLIO AREA -->
+  <section class="portofolio-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="https://img.freepik.com/free-vector/vector-illustration-rainbow-children_29937-2646.jpg?size=626&ext=jpg" style="width: 100%; border: 1px solid #000000; margin-bottom: 20px;" alt="">
         </div>
-    </div>    
+        <div class="col-md-4">
+          <img src="https://img.freepik.com/free-vector/vector-illustration-rainbow-children_29937-2646.jpg?size=626&ext=jpg" style="width: 100%; border: 1px solid #000000; margin-bottom: 20px;" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="https://img.freepik.com/free-vector/vector-illustration-rainbow-children_29937-2646.jpg?size=626&ext=jpg" style="width: 100%; border: 1px solid #000000; margin-bottom: 20px;" alt="">
+        </div>
+
+        <div class="col-md-4">
+          <img src="https://img.freepik.com/free-vector/vector-illustration-rainbow-children_29937-2646.jpg?size=626&ext=jpg" style="width: 100%; border: 1px solid #000000; margin-bottom: 20px;" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="https://img.freepik.com/free-vector/vector-illustration-rainbow-children_29937-2646.jpg?size=626&ext=jpg" style="width: 100%; border: 1px solid #000000; margin-bottom: 20px;" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="https://img.freepik.com/free-vector/vector-illustration-rainbow-children_29937-2646.jpg?size=626&ext=jpg" style="width: 100%; border: 1px solid #000000; margin-bottom: 20px;" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT AREA -->
+  <section class="about-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>ABOUT AREA</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT ME AREA -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>CONTACT ME AREA</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER AREA-->
+  <footer class="footer-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          Section 1
+        </div>
+        <div class="col-md-4">
+          Section 2
+        </div>
+        <div class="col-md-4">
+          Section 3
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
