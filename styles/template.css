@@ -1,36 +1,17 @@
-.part-of-body1 {
-    background-color: turquoise;
+/* HEADER AREA STYLE */
+.header-area .navbar-blue {
+  background-color: #2c3f51;
 }
 
+/* INTRODUCTION AREA STYLE */
 
-.form-image {
-    padding-top: 10%;
-    padding-left: 37%;
-    background: url("user.png");
-    background-repeat: none;
-    background-size: 200px, 100px;
+/* PORTOFOLIO AREA STYLE */
+
+/* ABOUT AREA STYLE */
+.about-section h1 {
+  color: #FF0000;
 }
 
-.form-Name {
-    text-align: center;
-    border-spacing: 10px 10px;
-}
+/* CONTACT AREA STYLE */
 
-.form-Name h1  {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 900;
-    padding-top: 20px;
-
-}
-
-.form-Name  img{
-    width: 500px;
-    
-}
-
-.form-Name p{
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-
-}
+/* FOOTER AREA STYLE */
